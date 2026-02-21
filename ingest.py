@@ -6,7 +6,7 @@ import logging
 from sqlalchemy import create_engine
 
 # Neon DB URL
-DB_URL = "postgresql://neondb_owner:npg_0Zr4GuApYkcx@ep-dry-recipe-a1v5wjty-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+from config import DB_URL
 
 logging.basicConfig(
     filename="logs/pipeline.log",
